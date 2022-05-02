@@ -150,12 +150,18 @@ void UpdateProduct()
 
         printf("new id: ");
         scanf("%d", &product1.id);
+        flush();
+        
         printf("new name: ");
         scanf("%s", product1.name);
+        
         printf("new price: ");
         scanf("%f", &product1.price);
+        flush();
+        
         printf("new quantity: ");
         scanf("%d", &product1.quantity);
+        flush();
         
         printf("\n");
 
